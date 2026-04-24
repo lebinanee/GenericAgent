@@ -46,3 +46,5 @@ If your skill only makes sense for a specific workflow, it's a marketplace candi
 ---
 
 > **Personal fork note:** I'm using this repo primarily for learning and local experimentation. I don't plan to open upstream PRs unless I stumble onto a genuine bug fix. Feel free to ignore this fork.
+>
+> **My focus areas:** Exploring custom skill development and understanding how the agent loop handles context window management. Tracking notes in `notes/` (gitignored).
