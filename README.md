@@ -28,13 +28,4 @@ Every time GenericAgent solves a new task, it automatically crystallizes the exe
 - **High Compatibility**: Supports Claude / Gemini / Kimi / MiniMax and other major models. Cross-platform.
 - **Token Efficient**: <30K context window — a fraction of the 200K–1M other agents consume. Layered memory ensures the right knowledge is always in scope. Less noise, fewer hallucinations, higher success rate — at a fraction of the cost.
 
-> **📝 Personal Note**: I'm primarily using this with Claude Sonnet as the backend model. The skill tree accumulation feature is the main reason I chose this over other agent frameworks — it genuinely gets more useful over time rather than starting from scratch each session.
-
-## 🧬 Self-Evolution Mechanism
-
-This is what fundamentally distinguishes GenericAgent from every other agent framework.
-
-```
-[New Task] --> [Autonomous Exploration] (install deps, write scripts, debug & verify) -->
-[Crystallize Execu
-```
+> **📝 Personal Note**: I'm primarily using this with Claude Sonnet as the backend model. The skill tree accumulation feature is the main reason I chose this over other agent frameworks — it genuinely gets more useful over time rather than staying static. I forked this mainly to experiment with my own skill tree and potentially tweak the agent loop for my local workflow (macOS + Chrome). Will document any useful personal customizations here as I go.
